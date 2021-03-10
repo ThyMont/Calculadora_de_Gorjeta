@@ -61,7 +61,6 @@
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
         android:max="50"
-        android:progress="5"
         app:layout_constraintBottom_toTopOf="@+id/txtGorjeta"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
@@ -95,7 +94,6 @@
         android:background="@color/accent"
         android:paddingTop="5dp"
         android:paddingBottom="5dp"
-        android:text="TextView"
         app:layout_constraintBottom_toTopOf="@+id/txtTotal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/seekBarPorcentagem" />
