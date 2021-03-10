@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         render();
     }
 
-    public void setListeners(){
+    private void setListeners(){
         txtPorcentagem.setText(seekPorcentagem.getProgress() + "%");
         seekPorcentagem.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
 
@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void render(){
+    private void render(){
         txtPorcentagem.setText(porcentagem + "%");
         gorjeta = valor*porcentagem/100;
         txtGorjeta.setText(String.format("R$ %.2f", gorjeta));
